@@ -19,5 +19,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('armo_auth/', include('armo_auth.urls')),  # This line includes the auth app URLs
+    path('custom_auth/', include('custom_auth.urls')),  # This line includes the auth app URLs
 ]
